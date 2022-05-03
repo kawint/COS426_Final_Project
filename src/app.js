@@ -467,7 +467,7 @@ let html = "<link rel='preconnect' href='ht tps://fonts.gstatic.com'> \
   <div style='text-align: center;margin-top:100px;'><span style='font-size:6em; font-weight: bold; font-family: courier, sans-serif;'><img src='./src/aim.ico'width=70; height=70;> Aim Lab</span></div> \
   <div style='text-align: center;'><span style='font-size:3em; font-family: courier, sans-serif;'>Practice your aim!</span></div> \
   <div><br/></div>\
-  <div id='ball' style='background:clear; position:absolute;'><img src='src/ball.png'; width=164; height=137;></div> \
+  <div id='ball' style='background:clear; position:absolute;'><img src='ball.png'; width=164; height=137;></div> \
   <div><br/></div>\
   <div style='text-align: center;'><span style='font-size:2em; font-weight: 300; font-family: courier, sans-serif; font-weight: bold;'>INSTRUCTIONS:</span></div> \
   <div style='text-align: center;'><span style='font-size:2em; font-weight: 300; font-family: courier, sans-serif; '>Move: WASD, Look: MOUSE</span></div> \

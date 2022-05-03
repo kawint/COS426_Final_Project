@@ -2,7 +2,7 @@
 
 This skeleton project will help you get started on your ThreeJS project and provide a strong foundation for extension. It sets up a simple scene, camera, and renderer in a modern JavaScript environment, and is written using some common best-practices that you may want to draw from.
 
-[Online Demo](https://reillybova.github.io/three-seed/)
+[Online Demo](https://kawint.github.io/COS426_Final_Project/)
 
 ## Installation
 To build this project, you will need to use GitHub's NodeJS Package Manager (npm) to manage and install project dependencies. All npm settings, as well as your project dependencies and their versionings, are defined in the file `package.json`. We will unpack this file in the next section.

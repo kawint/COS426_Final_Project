@@ -1,5 +1,5 @@
 # Aim Lab
-Kawin Tiyawattanaroj and Mikako Inaba
+Kawin Tiyawattanaroj and Mikako Inaba!
 
 [Online Demo](https://kawint.github.io/COS426_Final_Project/)
 

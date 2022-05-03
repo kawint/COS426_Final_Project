@@ -4,7 +4,7 @@ import { Color } from 'three';
 import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonControls.js';
 import { fpsCamera } from './components/camera';
 import { Vector3, Vector2, Raycaster } from 'three';
-import { Mouse } from './components/mouse';
+// import { Mouse } from './components/mouse';
 
 const NUM_SPLIT = 4;
 var TOTAL = 1;

@@ -158,7 +158,7 @@ class Initializer {
     this.num_hit = 0;
     this.total = 0;
     // let audio = new Audio('src/resources/break.mp3');
-    let audio = new Audio('src/resources/break2.mp3');
+    let audio = new Audio('break2.mp3');
     let thisObj = this;
 
     var currRound = 0;
@@ -308,7 +308,7 @@ class Initializer {
   initializeScene_() {
     const mapLoader = new THREE.TextureLoader();
     const maxAnisotropy = this.threejs_.capabilities.getMaxAnisotropy();
-    const checkerboard = mapLoader.load('src/resources/checkerboard.png');
+    const checkerboard = mapLoader.load('checkerboard.png');
     checkerboard.anisotropy = maxAnisotropy;
     checkerboard.wrapS = THREE.RepeatWrapping;
     checkerboard.wrapT = THREE.RepeatWrapping;
@@ -515,7 +515,7 @@ var startLoop = window.setInterval(loop, 1);
 
 function init_scoreBoard() {
   // let html = " <div id='score'>Score: 0 <br> Accuracy: -- %</div>";
-  let html = " <div><img id='crosshair' style='position:absolute;opacity:0;'src='./src/crosshair.png'; width=50; height=50; ></div>\
+  let html = " <div><img id='crosshair' style='position:absolute;opacity:0;'src='crosshair.png'; width=50; height=50; ></div>\
   <div id='top'><div id='score'>PTS</div><div id='points'>0</div><div id='accuracy'> -- </div><div id='percent'>%</div></div>";
   let div = document.createElement("div");
   div.innerHTML = html;

@@ -464,10 +464,10 @@ class Initializer {
 let html = "<link rel='preconnect' href='ht tps://fonts.gstatic.com'> \
 <link href='https://fonts.googleapis.com/css2?family=courier:ital,wght@1,100;1,300&family=Poppins&display=swap' rel='stylesheet'>\
 <div id='instructions' style='background-color:DarkCyan; background-image: linear-gradient(135deg, DarkCyan, Cyan);position:absolute; right:0px; left:0px; top:0px; bottom:0px;'> \
-  <div style='text-align: center;margin-top:100px;'><span style='font-size:6em; font-weight: bold; font-family: courier, sans-serif;'><img src='./src/aim.ico'width=70; height=70;> Aim Lab</span></div> \
+  <div style='text-align: center;margin-top:100px;'><span style='font-size:6em; font-weight: bold; font-family: courier, sans-serif;'><img src='aim.ico'width=70; height=70;> Aim Lab</span></div> \
   <div style='text-align: center;'><span style='font-size:3em; font-family: courier, sans-serif;'>Practice your aim!</span></div> \
   <div><br/></div>\
-  <div id='ball' style='background:clear; position:absolute;'><img src='src/ball.png'; width=164; height=137;></div> \
+  <div id='ball' style='background:clear; position:absolute;'><img src='ball.png'; width=164; height=137;></div> \
   <div><br/></div>\
   <div style='text-align: center;'><span style='font-size:2em; font-weight: 300; font-family: courier, sans-serif; font-weight: bold;'>INSTRUCTIONS:</span></div> \
   <div style='text-align: center;'><span style='font-size:2em; font-weight: 300; font-family: courier, sans-serif; '>Move: WASD, Look: MOUSE</span></div> \
@@ -481,7 +481,7 @@ let html = "<link rel='preconnect' href='ht tps://fonts.gstatic.com'> \
   <div style='text-align: center;'><span id='error' style='color:red;font-size:1.5em; font-family: courier, sans-serif;'></span></div> \
   <div><br/></div>\
   <div style='text-align: center;'><span id ='startEnter' style='font-size:2em; font-weight: bold; font-family: courier, sans-serif;'>Press &ltEnter&gt to play!</span></div> \
-  <div id='ball2' style='background:clear; position:absolute;'><img src='./src/ball.png'; width=164; height=137;></div> \
+  <div id='ball2' style='background:clear; position:absolute;'><img src='ball.png'; width=164; height=137;></div> \
 </div>"
 
 // <div style='background:DarkCyan;text-align: center;'><img src='./src/aimlab.jpeg' width='800' height='480'></div> \
@@ -512,10 +512,6 @@ function loop() {
   time2++;
 }
 var startLoop = window.setInterval(loop, 1);
-
-var loc = window.location.pathname;
-var dir = loc.substring(0, loc.lastIndexOf('/'));
-console.log(dir);
 
 function init_scoreBoard() {
   // let html = " <div id='score'>Score: 0 <br> Accuracy: -- %</div>";

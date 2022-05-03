@@ -513,6 +513,9 @@ function loop() {
 }
 var startLoop = window.setInterval(loop, 1);
 
+var loc = window.location.pathname;
+var dir = loc.substring(0, loc.lastIndexOf('/'));
+console.log(dir);
 
 function init_scoreBoard() {
   // let html = " <div id='score'>Score: 0 <br> Accuracy: -- %</div>";
